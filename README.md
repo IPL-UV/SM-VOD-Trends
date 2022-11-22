@@ -30,4 +30,4 @@ Natl Sci Rev, 2023
 }
 ```
 ## Acknowledgements
-This work was supported by the European Research Council (ERC) Synergy Grant “Understanding and Modelling the Earth System with Machine Learning (USMILE)” under Grant Agreement No 855187.
+MP was supported by the project LEAVES under grant RTI2018-096765-A-100 funded by MCIN/AEI/10.13039/501100011033 and by the European Regional Development Fund (ERDF, EU). GCV was supported by the European Research Council (ERC) Synergy Grant “Understanding and Modelling the Earth System with Machine Learning (USMILE)” under the Horizon 2020 research and innovation programme (Grant agreement No. 855187). The authors thank Miguel Mahecha from University of Leipzig for helpful comments. 
