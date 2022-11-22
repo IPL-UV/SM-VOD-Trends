@@ -1,6 +1,12 @@
 # Soil and vegetation water content identify main terrestrial ecosystem changes
 
-![image](https://user-images.githubusercontent.com/49197052/181771329-2ed4129a-e8a6-4b42-978f-654296f9ff8e.png)
+# Abstract
+
+Environmental change is a consequence of many interrelated factors. How vegetation responds to natural and human activity is yet not well established, quantified, and understood. Recent satellite missions providing hydrologic and ecological indicators enable better monitoring of Earth system changes, yet there is no automatic way to address this issue directly from observations. Here, we develop an observation-based methodology to capture evidence of changes in global terrestrial ecosystems and attribute these changes to natural or anthropogenic activity. We use \blue{the longest time record of} global microwave L-band soil moisture (SM) and vegetation optical depth (VOD) as satellite data and build spatially-explicit maps of change in soil and vegetation water content and biomass reflecting large ecosystem changes during the last decade, 2010-2020. Regions of prominent trends (from -8% to 9% per year) are observed, especially in humid and semi-arid climates. We further combine such trends with land cover change maps, vegetation greenness, and precipitation variability to assess their relationship with major documented ecosystem changes. Several regions emerge from our results. They cluster changes according to human activity drivers, including deforestation (Amazon, Central Africa) and wildfires (East Australia), artificial reforestation (South-East China), abandonment of farm fields (Central Russia), and climate shifts related to changes in precipitation variability (East Africa, North America, and Central Argentina). Using the high sensitivity of soil and vegetation water content to ecosystem changes, microwave satellite observations enable us to quantify and attribute global vegetation responses to climate or anthropogenic activities, as a direct measure of environmental changes and the mechanisms driving them.
+
+# Results
+
+![image](smvodtrends.png)
 
 # How to cite our work
 
@@ -8,23 +14,19 @@ If you find this useful, consider citing our work:
 
 ><b>Soil and vegetation water content identify main terrestrial ecosystem changes</b>
 Diego Bueso, Maria Piles, Philippe Ciais, Jean-Pierre Wigneron, Álvaro Moreno-Martínez and Gustau Camps-Valls
+Natl Sci Rev, 2023
 
 ```
 @article {Camps-Vallseabc7447,
-  author = {Camps-Valls, Gustau and Campos-Taberner, Manuel and Moreno-Mart{\'\i}nez, {\'A}lvaro and
-    Walther, Sophia and Duveiller, Gr{\'e}gory and Cescatti, Alessandro and Mahecha, Miguel D. and
-    Mu{\~n}oz-Mar{\'\i}, Jordi and Garc{\'\i}a-Haro, Francisco Javier and Guanter, Luis and
-    Jung, Martin and Gamon, John A. and Reichstein, Markus and Running, Steven W.},
-  title = {A unified vegetation index for quantifying the terrestrial biosphere},
-  volume = {7},
-  number = {9},
-  elocation-id = {eabc7447},
-  year = {2021},
-  doi = {10.1126/sciadv.abc7447},
-  publisher = {American Association for the Advancement of Science},
-  URL = {https://advances.sciencemag.org/content/7/9/eabc7447},
-  eprint = {https://advances.sciencemag.org/content/7/9/eabc7447.full.pdf},
-  journal = {Science Advances}
+  author = {Bueso, D. and Piles, M. and Ciais, P. and Wigneron, JP. and Moreno-Martinez, A. and Camps-Valls, G.},
+  title = {Soil and vegetation water content identify main terrestrial ecosystem changes},
+  volume = {},
+  number = {},
+  year = {2023},
+  doi = {},
+  publisher = {},
+  URL = {},
+  journal = {}
 }
 ```
 ## Acknowledgements
