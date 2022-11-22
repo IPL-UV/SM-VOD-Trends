@@ -11,7 +11,7 @@ Top: The five identified clusters of SM and VOD trends globally, with their sema
 
 # Data and code availability
 
-All the analysis was performed in MATLAB. {Data and code snippets are provided for reproducibility here: \href{https://github.com/IPL-UV/}
+All the analysis was performed in MATLAB. {Data and code snippets are provided for reproducibility here: [SM-VOD-Trends](https://github.com/IPL-UV/SM-VOD-Trends)
 
 # How to cite our work
 
