@@ -11,7 +11,27 @@ Top: The five identified clusters of SM and VOD trends globally, with their sema
 
 # Data and code availability
 
-All the analysis was performed in MATLAB. {Data and code snippets are provided for reproducibility here: [SM-VOD-Trends](https://github.com/IPL-UV/SM-VOD-Trends)
+Data are available in zenodo (DOI:10.5281/zenodo.7660170). All the analyses were performed in MATLAB and code snippets are provided here [SM-VOD-Trends](https://github.com/IPL-UV/SM-VOD-Trends) for reproducibility. Code is structured in four folders: "SM_VOD_trend_significance_extraction", "sensitivity_analysis_code", "land_cover_change_code" and "main_figures_code". 
+
+a)SM_VOD_trend_significance_extraction: contains the code to extract the main clusters using the Mann-Kendall test
+
+b)sensitivity_analysis_code:
+	- sensitivity_extraction.m --> Extract the files "NA_sens.mat" with the estimated slop by subcluster, variable (sm, vod, ndvi, prec), pixel, and month (nº de pixels x 12). 
+	          In Prec slop is estimated using the cumulative rain by month. Inside each variable there is a "s" y "r", being "s" the estimated change per year and "r" the estimated square R.
+	- pixel_mean_extraction.m -->  Extract the files   "NA_mean.mat" with mean value my subcluster, variable (sm, vod, ndvi, prec), pixel and month (nº de pixels x 12).
+		  In Prec mean value is estimated using the cumulated rain by month.
+
+c)land_cover_change_code:  
+	- Picture "cluster_map_definition.png" describes the location of each cluster and sub-cluster.
+	- Archives with .mat extension (AM_lcc.mat, AR_lcc.mat...) contain the land cover in the year 2011 and 2019 and the area for each cluster as a struct file: subcluster data is called (c1,c2,c3... see "cluster_map_definition.png"). Each subcluster contains: lcc_2011 (nº pixels x 1; Land cover in 2011) lcc_2019 (nº pixels x 1; Land cover in 2019) and area (nº pixels x 1; calculated area per pixel).
+	- Area_land_cover.m --> extracts el area de cada region
+ 	- Land_cover_change.m --> Plots alluvial(flow) + LC map from 2011 and 2019 per cluster
+	- LCC_cluster_extraction.m --> extracts LCC files per cluster (example: AM.mat --> AM_lcc.mat)
+	- Calculo de land_cover_change usando los datos de Alvaro. Cada Cluster (ejemplo: AM.mat) tiene asociado un archivo output (ejemplo: AM_lcc.mat) tipo struct con la información de cada subcluster(c1, c2,c3...).
+
+d)main_figures_code:
+	- Code to generate the main figures of the paper. 
+
 
 # How to cite our work
 
