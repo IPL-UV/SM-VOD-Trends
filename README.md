@@ -24,10 +24,9 @@ b)sensitivity_analysis_code:
 c)land_cover_change_code:  
 	- Picture "cluster_map_definition.png" describes the location of each cluster and sub-cluster.
 	- Archives with .mat extension (AM_lcc.mat, AR_lcc.mat...) contain the land cover in the year 2011 and 2019 and the area for each cluster as a struct file: subcluster data is called (c1,c2,c3... see "cluster_map_definition.png"). Each subcluster contains: lcc_2011 (nº pixels x 1; Land cover in 2011) lcc_2019 (nº pixels x 1; Land cover in 2019) and area (nº pixels x 1; calculated area per pixel).
-	- Area_land_cover.m --> extracts el area de cada region
+	- Area_land_cover_change.m --> extracts el area de cada region
  	- Land_cover_change.m --> Plots alluvial(flow) + LC map from 2011 and 2019 per cluster
 	- LCC_cluster_extraction.m --> extracts LCC files per cluster (example: AM.mat --> AM_lcc.mat)
-	- Calculo de land_cover_change usando los datos de Alvaro. Cada Cluster (ejemplo: AM.mat) tiene asociado un archivo output (ejemplo: AM_lcc.mat) tipo struct con la información de cada subcluster(c1, c2,c3...).
 
 d)main_figures_code:
 	- Code to generate the main figures of the paper. 
